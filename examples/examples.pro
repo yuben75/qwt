@@ -14,6 +14,7 @@ TEMPLATE = subdirs
 contains(QWT_CONFIG, QwtPlot) {
     
     SUBDIRS += \
+        test_widget \
         animation \
         barchart \
         cpuplot \
