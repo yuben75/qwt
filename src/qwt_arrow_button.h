@@ -45,6 +45,7 @@ protected:
     virtual void keyPressEvent( QKeyEvent * );
 
 private:
+	//PrivateData
     class PrivateData;
     PrivateData *d_data;
 };

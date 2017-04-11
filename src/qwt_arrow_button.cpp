@@ -18,7 +18,7 @@
 static const int MaxNum = 3;
 static const int Margin = 2;
 static const int Spacing = 1;
-
+//PrivateData
 class QwtArrowButton::PrivateData
 {
 public:
@@ -88,6 +88,7 @@ QwtArrowButton::~QwtArrowButton()
 */
 Qt::ArrowType QwtArrowButton::arrowType() const
 {
+	//PrivateData
     return d_data->arrowType;
 }
 
